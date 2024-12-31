@@ -1,0 +1,142 @@
+[
+  {
+    "sentence": "la doctor_",
+    "correctVerb": "a",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el camarer_",
+    "correctVerb": "o",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la camarer_",
+    "correctVerb": "a",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el pilot_",
+    "correctVerb": "o",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la pilot_",
+    "correctVerb": "o",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el pacient_",
+    "correctVerb": "e",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la pacient_",
+    "correctVerb": "e",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el model_",
+    "correctVerb": "o",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la model_",
+    "correctVerb": "o",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el cociner_",
+    "correctVerb": "o",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la cociner_",
+    "correctVerb": "a",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el dependient_",
+    "correctVerb": "e",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la dependient_",
+    "correctVerb": "a",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la profesor_",
+    "correctVerb": "a",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el jov_",
+    "correctVerb": "en",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la jov_",
+    "correctVerb": "en",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el estudi_",
+    "correctVerb": "ante",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la estudi_",
+    "correctVerb": "ante",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el pian_",
+    "correctVerb": "ista",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la pian_",
+    "correctVerb": "ista",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el pereod_",
+    "correctVerb": "ista",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la pereod_",
+    "correctVerb": "ista",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el cant_",
+    "correctVerb": "ante",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la cant_",
+    "correctVerb": "ante",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el act_",
+    "correctVerb": "or",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la act_",
+    "correctVerb": "riz",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "el alcald_",
+    "correctVerb": "e",
+    "infinitive": "(flexión)"
+  },
+  {
+    "sentence": "la alcald_",
+    "correctVerb": "esa",
+    "infinitive": "(flexión)"
+  }
+]

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spanish Verb Trainer</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: black;
+      color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    #training-container {
+      display: none;
+      text-align: center;
+    }
+    .sentence {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .infinitive {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      color: #a0a0a0;
+    }
+    input[type="text"] {
+      font-size: 1.2rem;
+      padding: 0.5rem;
+      color: #333;
+    }
+    .feedback {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+    .feedback.correct {
+      color: green;
+    }
+    .feedback.incorrect {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div id="selection-container">
+    <h1>Select Your Training File</h1>
+    <input id="json-file-input" type="file" accept=".json">
+  </div>
+
+  <div id="training-container">
+    <div id="sentence" class="sentence"></div>
+    <div id="infinitive" class="infinitive"></div>
+    <input id="answerInput" type="text" placeholder="Enter the verb">
+    <div id="feedback" class="feedback"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

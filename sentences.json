@@ -1,0 +1,17 @@
+[
+  {
+    "sentence": "Yo _____ a la tienda todos los días.",
+    "correctVerb": "voy",
+    "infinitive": "ir"
+  },
+  {
+    "sentence": "Ellos _____ estudiar para el examen.",
+    "correctVerb": "deben",
+    "infinitive": "deber"
+  },
+  {
+    "sentence": "Nosotros _____ a las ocho de la mañana.",
+    "correctVerb": "llegamos",
+    "infinitive": "llegar"
+  }
+]
