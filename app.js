@@ -44,17 +44,24 @@ const checkAnswer = () => {
   if (userAnswer === correctAnswer) {
     feedbackElement.textContent = "Correct!";
     feedbackElement.className = "feedback correct";
-  } else {
-    feedbackElement.textContent = "Incorrect";
-    feedbackElement.className = "feedback incorrect";
-  }
 
-  setTimeout(() => {
-    answerInput.value = ""; // Clear input
-    currentIndex = (currentIndex + 1) % sentences.length; // Move to next sentence
-    displaySentence();
-  }, 2000); // Wait 2 seconds before showing the next sentence
+    setTimeout(() => {
+      answerInput.value = ""; // Clear input
+      currentIndex = (currentIndex + 1) % sentences.length; // Move to next sentence
+      displaySentence();
+    }, 1000); // Wait 1 second before showing the next sentence
+  } else {
+    feedbackElement.textContent = "Incorrect. Try again.";
+    feedbackElement.className = "feedback incorrect";
+
+    // Keep focus on the input for retry
+    setTimeout(() => {
+      answerInput.value = ""; // Clear input for retry
+      answerInput.focus();
+    }, 1000);
+  }
 };
+
 
 // Add event listener for file input
 document.addEventListener("DOMContentLoaded", () => {
